@@ -1,0 +1,10 @@
+  "homepage": "https://rameshbaswapuram1.github.io/haibuddy",
+npm install gh-pages --save-dev
+
+"scripts": {
+    "predploy": "npm run build",
+    "deploy": "gh-pages -d build",}
+
+
+
+    npm run deploy
